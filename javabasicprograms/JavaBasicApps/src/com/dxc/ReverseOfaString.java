@@ -12,7 +12,7 @@ public class ReverseOfaString {
 		System.out.println("Enter the Input String : ");
 		String inputData = scr.nextLine();
 		System.out.println(new StringBuffer(inputData).reverse());
-		
+		scr.close();
 		
 	}
 
